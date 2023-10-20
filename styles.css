@@ -1,0 +1,41 @@
+body {
+    font-family: DM Serif Display;
+    background-color: #00c3ff;
+}
+
+.container {
+    max-width: 400px;
+    background-color: burlywood;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+}
+
+input[type="text"],
+input[type="email"],
+button {
+    display: block;
+    width: 95%;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+button {
+    background-color: #ff6f00;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+button:hover {
+    background-color: #50a832;
+}
